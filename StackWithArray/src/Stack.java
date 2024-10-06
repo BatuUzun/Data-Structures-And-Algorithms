@@ -43,10 +43,6 @@ public class Stack {
 	}
 	
 	public void clear() {
-		for(int i = top -1; i >= 0; i--) {
-			array[i] = 0;
-			
-		}
 		top = 0;
 	}
 	

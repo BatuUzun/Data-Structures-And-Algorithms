@@ -38,12 +38,8 @@ public class Stack {
 	}
 
 	public void clear() {
-		Node n;
-		while(top != null) {
-			n = top.next;
-			top = null;
-			top = n;
-		}
+		top = null;
+		size = 0;
 	}
 	
 	public int size() {
