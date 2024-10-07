@@ -8,23 +8,30 @@ public class Main {
 		stack.push(2);
 		stack.push(8);
 		
-		stack.push(6);
-		stack.push(6);
-		stack.push(6);
+		stack.push(3);
+		stack.push(4);
+		stack.push(9);
 		
-		stack.push(6);
+				stack.push(66);
+
+
 		
-
-		System.out.println("Peek: "+stack.size());
-		System.out.println("Peek: "+stack.search(1));
-
-		System.out.println("Peek: "+stack.contains(22));
-		stack.clear();
-		System.out.println("Peek: "+stack.size());
-
+		
 		
 		System.out.println(stack.toString());
 		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+		stack.reverse();
+		stack.push(6);
+		stack.push(62);
+		stack.push(61);
+
+
+		System.out.println(stack.toString());
+
 	}
 
 }

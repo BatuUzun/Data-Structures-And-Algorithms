@@ -64,6 +64,16 @@ public class Stack {
 		return -1;
 	}
 	
+	public void reverse() {
+		int[] temp = new int[10]; 
+		int idx = 0;
+		while(!isEmpty()) {
+			temp[idx++] = pop();
+		}
+		top = idx;
+		array = temp;
+	}
+	
 	@Override
 	public String toString() {
 		String result = "";
