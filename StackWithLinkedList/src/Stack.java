@@ -73,6 +73,17 @@ public class Stack {
 		return -1;
 	}
 	
+	public void reverse() {
+		Node previous = null, next, current = top;
+		while(current != null) {
+			next = current.next;
+			current.next = previous;
+			previous = current;
+			current = next;
+		}
+		top = previous;
+	}
+	
 	@Override
 	public String toString() {
 		String output = "";

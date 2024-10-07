@@ -11,31 +11,14 @@ public class Main {
 		stack.push(345);
 		stack.push(575);
 		
-		stack.push(234);
-		stack.push(57);
-		stack.push(22);
 		
-		stack.push(11);
-		stack.push(7);
-		stack.push(9);
-		
-		
-		System.out.println("Before");
-		System.out.println(stack.toString());
-
-		stack.clear();
-	
-		System.out.println("After");
-		System.out.println(stack.toString());
-		
-		System.out.println("ADD");
-		
-		stack.push(11);
-		stack.push(7);
-		stack.push(9);
 		
 		System.out.println(stack.toString());
-		System.out.println(stack.search(7));
+		stack.reverse();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println(stack.toString());
 
 
 	}
