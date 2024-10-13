@@ -25,12 +25,15 @@ public class Main{
 
 		pqMax.display();
 
-		//pq.deleteMax();
-		
 		pqMax.heapify();
 		pqMax.display();*/
+
+		//pq.deleteMax();
 		
-		/*PriorityQueueMinHeap pqMin = new PriorityQueueMinHeap();
+		/*pqMax.heapify();
+		pqMax.display();*/
+		
+		PriorityQueueMinHeap pqMin = new PriorityQueueMinHeap();
 		
 		pqMin.insert(1);
 		pqMin.insert(2);
@@ -55,9 +58,9 @@ public class Main{
 
 		
 		pqMin.heapify();
-		pqMin.display();*/
+		pqMin.display();
 		
-		Sort sort = new Sort();
+		/*Sort sort = new Sort();
 		
 		int[] randomNumbers = new int[10];
         
@@ -81,7 +84,7 @@ public class Main{
 
         sort.minHeapify(randomNumbers);
         sort.display(randomNumbers);
-
+*/
         
 
 	}
