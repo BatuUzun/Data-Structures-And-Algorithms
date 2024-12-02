@@ -7,7 +7,6 @@ public class DepthFirstValues {
 		
 		if(node != null) {
 			Stack<Node> stack = new Stack<Node>();
-			
 			stack.push(node);
 			
 			while(!stack.isEmpty()) {
