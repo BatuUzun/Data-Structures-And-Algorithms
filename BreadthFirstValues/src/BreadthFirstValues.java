@@ -10,6 +10,7 @@ public class BreadthFirstValues {
 		if(node != null) {
 			Queue<Node> q = new ConcurrentLinkedQueue<Node>();
 			q.add(node);
+			
 			while(!q.isEmpty()) {
 				Node n = q.poll();
 				result.add(n);
